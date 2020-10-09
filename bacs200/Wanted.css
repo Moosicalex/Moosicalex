@@ -2,7 +2,7 @@
 <html lang="en">
 
 
-h1{
+h {
     font-family: Algerian, Helvetica, sans-serif;
     text-align: center;
     font-size: 900%;
@@ -30,6 +30,7 @@ h4 {
     margin: 50px;
     font-size: 110%;
     font-family: Informal Roman;
+    float: right;
     
 }
 
