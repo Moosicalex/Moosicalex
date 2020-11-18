@@ -5,9 +5,8 @@ body, html {
     width: 100%;
 }
 
-header {
-   background: cornflowerblue;
-   line-height: 100px;
+header {}
+   line-height: 90px;
 }
 
 select {
