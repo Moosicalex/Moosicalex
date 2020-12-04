@@ -1,32 +1,57 @@
+@font-face {
+    font-family: 'Major Mono Display';
+    src: url(MajorMonoDisplay-Regular.ttf);
+}
+
 h1{
     color: rgb(75%, 0%, 128%);
+    text-align: center;
+    background-color: rgb(10%, 10%, 10%);
+    font-family: 'Major Mono Display';
 }
 
 h2{
     color: rgb(75%, 0%, 128%);
+    font-family: 'Major Mono Display';
 }
 
 h3{
     color: rgb(75%, 0%, 128%);
+    font-family: 'Major Mono Display';
 }
 
 h4{
     color: rgb(75%, 0%, 128%);
+    font-family: 'Major Mono Display';
 }
 
 body{
     background-color: black;
+    border: 20px solid rgb(18%, 0%, 28%);
 }
 
 p{
     color: rgb(75%, 0%, 128%);
     background-color: rgb(10%, 10%, 10%);
+    font-family: 'Major Mono Display';
 }
 
 ul{
     color: rgb(100%, 100%, 100%);
+    font-family: 'Major Mono Display';
 }
 
 #video{
     text-align: center;
+}
+
+div#navigationMenu{
+    float: right;
+    width: 300px;
+    background-color: rgb(18%, 0%, 28%);
+}
+
+#navItem{
+    color: rgb(100%, 100%, 100%);
+    font-family: 'Major Mono Display';
 }
