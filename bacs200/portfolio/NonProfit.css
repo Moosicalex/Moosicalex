@@ -1,0 +1,53 @@
+body, html {
+   background:white;
+   font-size: 2em;
+   text-align: center;
+    width: 100%;
+}
+
+header {}
+   line-height: 90px;
+}
+
+select {
+   color: dimgrey;
+   background: bisque;
+   height: 100px;
+   width: 200px;
+   float: right;
+    
+}
+
+option{
+    font-size: 20;
+}
+
+.sideMenu:hover{
+    transform: scale(1.05, 1.05);
+    color: black;
+    background-color: khaki;
+}
+
+article {
+   background: darkseagreen;
+   line-height: 180px;   
+}
+
+aside {
+   background: goldenrod;
+   line-height: 180px;
+}
+
+section {
+   background: lightsteelblue;
+   line-height: 90px;
+}
+
+footer {
+   background: lemonchiffon;
+   line-height: 40px;
+}
+
+img{
+    width: 100%
+}

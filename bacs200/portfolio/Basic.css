@@ -1,0 +1,32 @@
+h1{
+    color: rgb(75%, 0%, 128%);
+}
+
+h2{
+    color: rgb(75%, 0%, 128%);
+}
+
+h3{
+    color: rgb(75%, 0%, 128%);
+}
+
+h4{
+    color: rgb(75%, 0%, 128%);
+}
+
+body{
+    background-color: black;
+}
+
+p{
+    color: rgb(75%, 0%, 128%);
+    background-color: rgb(10%, 10%, 10%);
+}
+
+ul{
+    color: rgb(100%, 100%, 100%);
+}
+
+#video{
+    text-align: center;
+}
