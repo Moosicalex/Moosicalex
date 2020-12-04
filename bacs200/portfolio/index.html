@@ -21,23 +21,23 @@
    <header>
        <div class="collapse" id="navbarHeader">
            <div class="container">
-               <div class="row">
-                   <div class="col-sm-4 offset-md-1 py-4">
-                       <h4 class="text-white">Contact Information</h4>
-                       <ul class="list-unstyled">
-                           <li><a href="mailto: moosicalex2@gmail.com" class="text-white">Email me</a></li>
-                           <li><a href="#" class="text-white">Text me: 970-344-6410</a></li>
-                       </ul>
-                   </div>
-                   <div class="col-sm-4 offset-md-8 py-4">
-                       <h4 class="text-white">Personal Works</h4>
-                       <ul class="list-unstyled">
-                           <li><a href="#" class="text-white">Websites</a></li>
-                           <li><a href="#" class="text-white">Music</a></li>
-                       </ul>
-                   </div>
-               </div>
+              <table id="topNav">
+               <th>
+                   <h3 class="text-white">Links</h3>
+                   <p class="text-white">Find all my websites on github</p>
+                   <p class="text-white">Find all my music on soundcloud</p>
+                   <p class="text-white">Find all my games on my portfolio</p>
+               </th>
+               <th>
+                   <h3 class="text-white">Contact Info</h3>
+                   <p class="text-white">Phone Number: 970-344-6410</p>
+                   <p class="text-white">Email: moosicalex2@gmail.com</p>
+                   <p class="text-white"></p>
+               </th>
+           
+               </table>
            </div>
+           
        </div>
        <div id="topBar" class="navbar navbar-dark box-shadow">
         <div class="container sticky-top d-flex justify-content-between">
@@ -60,7 +60,7 @@
                 <a class="nav-link" id="Music-tab" data-toggle="tab" href="#Music" role="tab" aria-controls="music" aria-selected="true">Music</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" id="Programs-tab" data-toggle="tab" href="#Programs" role="tab" aria-controls="Programs" aria-selected="false">Programs</a>
+                <a class="nav-link" id="About-tab" data-toggle="tab" href="#About" role="tab" aria-controls="About" aria-selected="false">About</a>
             </li>
             <li class="nav-item active">
                 <a class="nav-link" id="Websites-tab" data-toggle="tab" href="#Websites" role="tab" aria-controls="Websites" aria-selected="false">Websites</a>
@@ -71,25 +71,41 @@
         <div class="tab-content" id="myTabContent1"> 
             <div class="tab-pane fade show active" id="Music" role="tabpanel" aria-labelledby="Music-tab">
               
-              <h1 id="myMusic">My Music</h1>
+              <h1 id="title">My Music</h1>
               
               <h2 id="mostRecent">Most recent</h2>
               
               <div id="video"><iframe width="900" height="506" src="https://www.youtube.com/embed/BkASUTRMLHI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
               
-              <p id="mostRecent">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere ullam aperiam accusamus saepe laudantium natus, tenetur numquam illum maxime, temporibus sequi iusto neque corporis quam nihil consectetur asperiores quas facilis!</p>
+              <p id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere ullam aperiam accusamus saepe laudantium natus, tenetur numquam illum maxime, temporibus sequi iusto neque corporis quam nihil consectetur asperiores quas facilis!</p>
               
               <h2 id="mostPopular">Most Popular</h2>
               
-              <div id="video"><iframe width="900" height="506" src="https://www.youtube.com/embed/IRlh9vYHzik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+              <div id="video"><iframe width="900 auto" height="506 auto" src="https://www.youtube.com/embed/IRlh9vYHzik" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
               
-              <p id="mostPopular">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit nihil, voluptatem iure commodi! Beatae distinctio iste dolores amet, modi sed molestiae, nostrum, molestias et est quibusdam. Error corporis, quae ipsa.</p>
+              <p id="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit nihil, voluptatem iure commodi! Beatae distinctio iste dolores amet, modi sed molestiae, nostrum, molestias et est quibusdam. Error corporis, quae ipsa.</p>
 
               
             </div>
         
-            <div class="tab-pane fade show " id="Programs" role="tabpanel" aria-labelledby="Programs-tab">
-              <div>bunch of Shit</div>
+            <div class="tab-pane fade show " id="About" role="tabpanel" aria-labelledby="About-tab">
+              
+              <h1 id="title">About Me</h1>
+              
+              <img id="headshot" src="portfolio #3.jpg" alt="Headshot">
+              
+              <p id="description">Born in Loveland Colorado into an artistic family, I've always been fascinated by the combitnation of thourough logical thinking with aesthetic merit. I was intrigued by the practical process of making massive artistic endeavors like movies and plays and would seek out the knowledge on how to do such things. </p>
+              <p id="description">This thirst for knowledge led me to explore things like writing music, programming, and web development. </p>
+              <p id="description">After discovering that these artistic endeavors also require large amounts of logical reasoning and problem solving I decided to make them my careers. I've poured hours of my free time into developing my skills in these fields along with studying web development and software engineering at the University of Northern Colorado in Greeley Colorado.</p>
+              <ul class="text-white">Skills
+                  <li>Problem solving</li>
+                  <li>Natrual Leadership tendencies</li>
+                  <li>Logical reasoning</li>
+                  <li>Programming Languages (Java, Python)</li>
+                  <li>Html</li>
+                  <li>Musical Experience</li>
+                  <li>Game Design</li>
+              </ul>
             </div>
             
             <div class="tab-pane fade show " id="Websites" role="tabpanel" aria-labelledby="Websites-tab">
